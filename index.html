@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>영상공고</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">영상 제작 공고 모니터</p>
+        <h1>영상공고</h1>
+      </div>
+      <button class="primary-button" id="refreshButton" type="button">결과 새로고침</button>
+    </header>
+
+    <main>
+      <section class="control-panel" aria-label="검색 조건">
+        <label class="search-box">
+          <span>검색어</span>
+          <input id="searchInput" type="search" placeholder="예: 홍보영상, 라이브커머스, 홈쇼핑" />
+        </label>
+
+        <div class="tabs" role="tablist" aria-label="공고 분류">
+          <button class="tab active" data-filter="전체" type="button">전체</button>
+          <button class="tab" data-filter="바우처" type="button">바우처</button>
+          <button class="tab" data-filter="홈쇼핑/인서트" type="button">홈쇼핑/인서트</button>
+          <button class="tab" data-filter="라이브커머스" type="button">라이브커머스</button>
+          <button class="tab" data-filter="입찰" type="button">입찰</button>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="요약">
+        <article>
+          <span id="totalCount">0</span>
+          <p>전체 공고</p>
+        </article>
+        <article>
+          <span id="highCount">0</span>
+          <p>높은 관련도</p>
+        </article>
+        <article>
+          <span id="sourceCount">0</span>
+        <p>확인 사이트</p>
+        </article>
+      </section>
+
+      <section class="source-status" aria-label="사이트별 확인 결과">
+        <h2>사이트별 확인 결과</h2>
+        <div id="sourceStatusList"></div>
+      </section>
+
+      <section class="notice-list" id="noticeList" aria-live="polite"></section>
+    </main>
+
+    <template id="noticeTemplate">
+      <article class="notice-card">
+        <div class="notice-head">
+          <div>
+            <p class="source"></p>
+            <h2></h2>
+          </div>
+          <span class="score"></span>
+        </div>
+        <p class="summary"></p>
+        <div class="meta-row">
+          <span class="category"></span>
+          <span class="deadline"></span>
+        </div>
+        <a class="notice-link" target="_blank" rel="noreferrer">원문 보기</a>
+      </article>
+    </template>
+
+    <script src="data/notices.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

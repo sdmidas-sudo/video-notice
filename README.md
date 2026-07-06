@@ -49,3 +49,24 @@
 3. 관련도 분류 규칙 만들기
 4. 웹앱 화면 만들기
 5. GitHub에 계속 저장하면서 노트북/데스크톱에서 이어 작업
+
+## 현재 프로토타입
+
+- `index.html`: 모바일에서도 볼 수 있는 웹앱 첫 화면
+- `styles.css`: 기본 화면 스타일
+- `app.js`: 실제 수집 결과 JSON 표시, 검색, 탭 필터
+- `scripts/collect_notices.py`: 6개 사이트를 확인해 키워드가 감지된 공고만 `data/notices.json`, `data/notices.js`로 저장
+
+수집 갱신:
+
+```powershell
+& 'C:\Users\USER\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' scripts\collect_notices.py
+```
+
+그 다음 브라우저에서 `index.html`을 열면 감지된 공고와 원문 링크를 확인할 수 있습니다.
+
+## 자동 검색과 휴대폰 알림
+
+- GitHub Actions가 매일 오전 9시(한국시간)에 수집 스크립트를 실행합니다.
+- 새 공고가 감지되면 `NTFY_TOPIC` 저장소 Secret으로 휴대폰 푸시 알림을 보냅니다.
+- 휴대폰에서 ntfy 앱을 설치하고, 직접 정한 토픽 이름을 구독한 뒤 GitHub 저장소 Secret `NTFY_TOPIC`에 같은 값을 넣으면 됩니다.

@@ -1,0 +1,75 @@
+window.NOTICE_DATA = {
+  "updatedAt": "2026-07-06T06:27:20.836027+00:00",
+  "keywords": {
+    "바우처": [
+      "홍보영상",
+      "제품영상",
+      "영상제작",
+      "영상 제작",
+      "콘텐츠 제작",
+      "동영상 제작"
+    ],
+    "홈쇼핑/인서트": [
+      "홈쇼핑",
+      "인서트",
+      "상품소개영상",
+      "TV홈쇼핑",
+      "방송영상",
+      "제품 시연영상"
+    ],
+    "라이브커머스": [
+      "라이브커머스",
+      "모바일 라이브",
+      "디지털커머스",
+      "소담스퀘어",
+      "온라인 판로",
+      "쇼핑라이브"
+    ],
+    "입찰": [
+      "영상 제작 용역",
+      "홍보물 제작",
+      "콘텐츠 제작 용역",
+      "촬영 편집",
+      "SNS 영상"
+    ]
+  },
+  "sources": [
+    {
+      "name": "TRN 쇼핑엔티 사업공고",
+      "status": "ok",
+      "count": 0,
+      "url": "https://www.trncompany.co.kr/hp/noticeHomeList.do"
+    },
+    {
+      "name": "현대홈쇼핑 입찰/공지",
+      "status": "ok",
+      "count": 0,
+      "url": "https://company.hmall.com/news/news_notice.html"
+    },
+    {
+      "name": "나라장터",
+      "status": "ok",
+      "count": 0,
+      "url": "https://www.g2b.go.kr/"
+    },
+    {
+      "name": "기업마당 지원사업 공고",
+      "status": "ok",
+      "count": 0,
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
+    },
+    {
+      "name": "중소벤처24 사업공고",
+      "status": "ok",
+      "count": 0,
+      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy"
+    },
+    {
+      "name": "수출바우처 공지사항",
+      "status": "ok",
+      "count": 0,
+      "url": "https://www.exportvoucher.com/portal/board/boardList"
+    }
+  ],
+  "notices": []
+};

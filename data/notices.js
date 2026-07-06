@@ -1,36 +1,28 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-07-06T06:27:20.836027+00:00",
+  "updatedAt": "2026-07-06T08:42:58.001234+00:00",
   "keywords": {
     "바우처": [
-      "홍보영상",
-      "제품영상",
+      "영상",
       "영상제작",
-      "영상 제작",
-      "콘텐츠 제작",
-      "동영상 제작"
+      "홍보영상",
+      "홍보영화"
     ],
     "홈쇼핑/인서트": [
-      "홈쇼핑",
-      "인서트",
-      "상품소개영상",
-      "TV홈쇼핑",
-      "방송영상",
-      "제품 시연영상"
+      "인서트"
     ],
     "라이브커머스": [
-      "라이브커머스",
-      "모바일 라이브",
-      "디지털커머스",
-      "소담스퀘어",
-      "온라인 판로",
-      "쇼핑라이브"
+      "숏폼",
+      "롱폼",
+      "유튜브"
     ],
     "입찰": [
-      "영상 제작 용역",
-      "홍보물 제작",
-      "콘텐츠 제작 용역",
-      "촬영 편집",
-      "SNS 영상"
+      "영상",
+      "영상제작",
+      "홍보영상",
+      "홍보영화",
+      "숏폼",
+      "롱폼",
+      "유튜브"
     ]
   },
   "sources": [
@@ -55,7 +47,7 @@ window.NOTICE_DATA = {
     {
       "name": "기업마당 지원사업 공고",
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
     },
     {
@@ -67,9 +59,325 @@ window.NOTICE_DATA = {
     {
       "name": "수출바우처 공지사항",
       "status": "ok",
-      "count": 0,
+      "count": 20,
       "url": "https://www.exportvoucher.com/portal/board/boardList"
     }
   ],
-  "notices": []
+  "notices": [
+    {
+      "id": "기업마당-지원사업-공고-인천-2026년-지역-소재-기반-영상-콘텐츠-제작-지원-모집-공고",
+      "title": "[인천] 2026년 지역 소재 기반 영상 콘텐츠 제작 지원 모집 공고",
+      "source": "기업마당 지원사업 공고",
+      "sourceUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124000",
+      "deadline": "원문 확인",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "기업마당 지원사업 공고에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "목록"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-2022-8-29-9-2-접수완료-과제",
+      "title": "(수행기관) 디자인개발/홍보동영상분야 2022.8.29 ~9.2 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=2933&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-09-07",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-2022-9-26-9-30-접수완료-과제",
+      "title": "(수행기관) 디자인개발/홍보동영상분야 2022.9.26 ~9.30 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=2947&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-10-05",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-01-30-02-03-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(01.30.~02.03.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=3766&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-01-25",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-02-27-03-03-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(02.27.~03.03.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4186&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-02-22",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-03-27-03-31-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(03.27.~03.31.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4308&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-03-26",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-09-26-09-30-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(09.26 ~ 09.30)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=2943&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-09-21",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-10-31-11-4-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(10.31.~11.4.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=2956&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-10-25",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-11-28-12-02-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(11.28.~12.02.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=3026&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-11-22",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상분야-검수평가-결과물-접수기간-안내-12-26-12-30-",
+      "title": "​(수행기관) 디자인개발/홍보동영상분야 검수평가 결과물 접수기간 안내(12.26.~12.30.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=3085&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-12-19",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상-재검수-분야-2023-4-24-월-4-28-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상(재검수) 분야 2023.4.24(월)~4.28(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4490&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-05-03",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상분야-2022-10-31-월-11-4-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상분야 2022.10.31(월)~11.4(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=2987&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-11-08",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상분야-2022-11-28-월-12-02-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상분야 2022.11.28(월)~12.02(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=3065&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2022-12-07",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상분야-2022-12-26-월-12-30-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상분야 2022.12.26(월)~12.30(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=3166&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-01-04",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상분야-2023-01-30-월-02-03-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상분야 2023.01.30(월)~02.03(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4138&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-02-07",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상분야-2023-02-27-월-03-03-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상분야 2023.02.27(월)~03.03(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4236&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-03-10",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-디자인개발-홍보동영상분야-2023-03-27-월-03-31-금-접수완료-과제",
+      "title": "​​디자인개발/홍보동영상분야 2023.03.27(월)~03.31(금) 접수완료 과제",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4341&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-04-03",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-디자인개발-홍보동영상-분야-검수평가-결과물-접수기간-안내-4-24-4-28-",
+      "title": "​수행기관 디자인개발/홍보동영상 분야 검수평가 결과물 접수기간 안내(4.24.~4.28.)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4419&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-04-19",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-홍보동영상-분야-검수평가-결과물-접수기간-안내-5월-",
+      "title": "수행기관 홍보동영상 분야 검수평가 결과물 접수기간 안내(5월)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4530&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-05-11",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-수행기관-홍보동영상분야-검수평가-결과물-접수기간-안내-3월-이후-검수요청-",
+      "title": "수행기관 홍보동영상분야 검수평가 결과물 접수기간 안내(3월 이후 검수요청)",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=4402&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2023-04-14",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    },
+    {
+      "id": "수출바우처-공지사항-홍보-광고-홍보-동영상-총괄-수행기관-한국디지털광고협회-사무실-이전-안내",
+      "title": "홍보/광고 , 홍보 동영상 총괄 수행기관 '한국디지털광고협회' 사무실 이전 안내",
+      "source": "수출바우처 공지사항",
+      "sourceUrl": "https://www.exportvoucher.com/portal/board/boardList",
+      "url": "https://www.exportvoucher.com/portal/board/boardView?pageNo=1&bbs_id=1&ntt_id=9699&active_menu_cd=EZ005004000&pageUnit=20",
+      "deadline": "2025-06-27",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "수출바우처 공지사항에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "영상"
+    }
+  ]
 };

@@ -85,8 +85,11 @@ function renderSourceStatus() {
   }
 
   sources.forEach((source) => {
-    const chip = document.createElement("span");
+    const chip = document.createElement("a");
     chip.className = `source-chip ${source.status === "error" ? "error" : ""} ${source.count > 0 ? "has-items" : ""}`;
+    chip.href = source.url;
+    chip.target = "_blank";
+    chip.rel = "noreferrer";
     chip.textContent = source.status === "error" ? `${source.name} 오류` : `${source.name} ${source.count}건`;
     container.append(chip);
   });

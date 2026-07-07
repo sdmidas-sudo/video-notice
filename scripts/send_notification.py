@@ -11,7 +11,7 @@ def post_ntfy(topic, message):
         data=message.encode("utf-8"),
         method="POST",
         headers={
-            "Title": "영상공고 새 공고 감지",
+            "Title": "Video Notice Alert",
             "Tags": "movie_camera,mega",
             "Priority": "default",
         },

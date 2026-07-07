@@ -2,6 +2,15 @@ name: Daily notice scan
 
 on:
   workflow_dispatch:
+    inputs:
+      send_test_notification:
+        description: "Send a test phone notification"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
   push:
     branches:
       - main
@@ -42,7 +51,7 @@ jobs:
           file_pattern: "data/notices.json data/notices.js"
 
       - name: Create test notification
-        if: github.event_name == 'push' && contains(github.event.head_commit.message, 'Test phone notification')
+        if: (github.event_name == 'push' && contains(github.event.head_commit.message, 'Test phone notification')) || (github.event_name == 'workflow_dispatch' && inputs.send_test_notification == 'true')
         run: |
           mkdir -p tmp
           {
@@ -52,7 +61,7 @@ jobs:
           } > tmp/test-notification.txt
 
       - name: Send test phone notification
-        if: github.event_name == 'push' && contains(github.event.head_commit.message, 'Test phone notification')
+        if: (github.event_name == 'push' && contains(github.event.head_commit.message, 'Test phone notification')) || (github.event_name == 'workflow_dispatch' && inputs.send_test_notification == 'true')
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python scripts/send_notification.py tmp/test-notification.txt

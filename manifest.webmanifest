@@ -1,0 +1,18 @@
+{
+  "name": "영상공고",
+  "short_name": "영상공고",
+  "description": "영상 제작 관련 공고를 매일 확인하고 새 공고를 알려주는 웹앱",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

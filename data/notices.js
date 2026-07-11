@@ -1,5 +1,5 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-07-10T04:13:22.453540+00:00",
+  "updatedAt": "2026-07-11T03:40:35.398171+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -46,10 +46,9 @@ window.NOTICE_DATA = {
     },
     {
       "name": "기업마당 지원사업 공고",
-      "status": "error",
+      "status": "ok",
       "count": 0,
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-      "message": "<urlopen error timed out>"
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
     },
     {
       "name": "중소벤처24 사업공고",

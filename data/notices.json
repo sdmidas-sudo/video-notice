@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T03:43:01.946202+00:00",
+  "updatedAt": "2026-07-24T03:41:56.686030+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -46,15 +46,17 @@
     },
     {
       "name": "기업마당 지원사업 공고",
-      "status": "ok",
+      "status": "error",
       "count": 0,
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "중소벤처24 사업공고",
-      "status": "ok",
+      "status": "error",
       "count": 0,
-      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy"
+      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy",
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "수출바우처 공지사항",

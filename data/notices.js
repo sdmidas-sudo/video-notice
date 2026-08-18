@@ -1,5 +1,5 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-08-17T01:54:33.928227+00:00",
+  "updatedAt": "2026-08-18T01:49:53.626705+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -53,9 +53,10 @@ window.NOTICE_DATA = {
     },
     {
       "name": "중소벤처24 사업공고",
-      "status": "ok",
+      "status": "error",
       "count": 0,
-      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy"
+      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy",
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "수출바우처 공지사항",

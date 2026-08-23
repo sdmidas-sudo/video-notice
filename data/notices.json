@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T01:48:41.626215+00:00",
+  "updatedAt": "2026-08-23T01:59:03.513510+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -46,9 +46,10 @@
     },
     {
       "name": "기업마당 지원사업 공고",
-      "status": "ok",
+      "status": "error",
       "count": 0,
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "중소벤처24 사업공고",

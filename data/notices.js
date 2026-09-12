@@ -1,5 +1,5 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-09-11T04:36:37.853498+00:00",
+  "updatedAt": "2026-09-12T04:31:31.664656+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -47,7 +47,7 @@ window.NOTICE_DATA = {
     {
       "name": "기업마당 지원사업 공고",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
     },
     {
@@ -64,22 +64,5 @@ window.NOTICE_DATA = {
       "message": "<urlopen error [Errno 104] Connection reset by peer>"
     }
   ],
-  "notices": [
-    {
-      "id": "기업마당-지원사업-공고-강원-정선군-사회적경제기업-홍보영상-제작-지원사업-공고",
-      "title": "[강원] 정선군 사회적경제기업 홍보영상 제작 지원사업 공고",
-      "source": "기업마당 지원사업 공고",
-      "sourceUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126388",
-      "deadline": "원문 확인",
-      "category": "바우처",
-      "score": 90,
-      "matchedKeywords": [
-        "영상",
-        "홍보영상"
-      ],
-      "summary": "기업마당 지원사업 공고에서 '영상, 홍보영상' 키워드가 감지되었습니다.",
-      "detectedFrom": "목록"
-    }
-  ]
+  "notices": []
 };

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T04:51:56.468364+00:00",
+  "updatedAt": "2026-09-23T04:42:29.147961+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -47,14 +47,15 @@
     {
       "name": "기업마당 지원사업 공고",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
     },
     {
       "name": "중소벤처24 사업공고",
-      "status": "ok",
+      "status": "error",
       "count": 0,
-      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy"
+      "url": "https://www.smes.go.kr/main/sportsBsnsPolicy",
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "수출바우처 공지사항",
@@ -64,21 +65,5 @@
       "message": "<urlopen error [Errno 104] Connection reset by peer>"
     }
   ],
-  "notices": [
-    {
-      "id": "기업마당-지원사업-공고-전남광주-2026년-창업기업-온라인-판로개척-영상-제작-지원사업-공고",
-      "title": "[전남광주] 2026년 창업기업 온라인 판로개척 영상 제작 지원사업 공고",
-      "source": "기업마당 지원사업 공고",
-      "sourceUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126675",
-      "deadline": "원문 확인",
-      "category": "바우처",
-      "score": 75,
-      "matchedKeywords": [
-        "영상"
-      ],
-      "summary": "기업마당 지원사업 공고에서 '영상' 키워드가 감지되었습니다.",
-      "detectedFrom": "목록"
-    }
-  ]
+  "notices": []
 }

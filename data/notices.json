@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:16:46.902735+00:00",
+  "updatedAt": "2026-10-07T05:55:49.784215+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -34,9 +34,10 @@
     },
     {
       "name": "현대홈쇼핑 입찰/공지",
-      "status": "ok",
+      "status": "error",
       "count": 0,
-      "url": "https://company.hmall.com/news/news_notice.html"
+      "url": "https://company.hmall.com/news/news_notice.html",
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "나라장터",

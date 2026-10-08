@@ -1,5 +1,5 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-10-07T05:55:49.784215+00:00",
+  "updatedAt": "2026-10-08T05:59:19.095720+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -34,10 +34,9 @@ window.NOTICE_DATA = {
     },
     {
       "name": "현대홈쇼핑 입찰/공지",
-      "status": "error",
+      "status": "ok",
       "count": 0,
-      "url": "https://company.hmall.com/news/news_notice.html",
-      "message": "<urlopen error timed out>"
+      "url": "https://company.hmall.com/news/news_notice.html"
     },
     {
       "name": "나라장터",

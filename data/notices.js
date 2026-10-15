@@ -1,5 +1,5 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-10-14T04:49:12.292970+00:00",
+  "updatedAt": "2026-10-15T04:33:50.549193+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -47,7 +47,7 @@ window.NOTICE_DATA = {
     {
       "name": "기업마당 지원사업 공고",
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do"
     },
     {
@@ -64,5 +64,21 @@ window.NOTICE_DATA = {
       "message": "<urlopen error [Errno 104] Connection reset by peer>"
     }
   ],
-  "notices": []
+  "notices": [
+    {
+      "id": "기업마당-지원사업-공고-2026년-2차-제주-로케이션-영상물-제작비-지원사업-공고",
+      "title": "2026년 2차 제주 로케이션 영상물 제작비 지원사업 공고",
+      "source": "기업마당 지원사업 공고",
+      "sourceUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127202",
+      "deadline": "원문 확인",
+      "category": "바우처",
+      "score": 75,
+      "matchedKeywords": [
+        "영상"
+      ],
+      "summary": "기업마당 지원사업 공고에서 '영상' 키워드가 감지되었습니다.",
+      "detectedFrom": "목록"
+    }
+  ]
 };

@@ -1,5 +1,5 @@
 window.NOTICE_DATA = {
-  "updatedAt": "2026-11-26T08:10:37.269645+00:00",
+  "updatedAt": "2026-11-27T08:22:05.862299+00:00",
   "keywords": {
     "바우처": [
       "영상",
@@ -66,11 +66,11 @@ window.NOTICE_DATA = {
   ],
   "notices": [
     {
-      "id": "기업마당-지원사업-공고-전북-2026년-식품기업-창업프로그램-지원사업-제품-및-서비스-홍보-영상-제작-수혜-기업-모집-공고",
-      "title": "[전북] 2026년 식품기업 창업프로그램 지원사업 제품 및 서비스 홍보 영상 제작 수혜 기업 모집 공고",
+      "id": "기업마당-지원사업-공고-2026년-3차-제주-로케이션-영상물-제작비-지원사업-공고",
+      "title": "2026년 3차 제주 로케이션 영상물 제작비 지원사업 공고",
       "source": "기업마당 지원사업 공고",
       "sourceUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000128147",
+      "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000128166",
       "deadline": "원문 확인",
       "category": "바우처",
       "score": 75,
